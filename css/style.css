@@ -1,0 +1,161 @@
+ body {
+    font-family: 'Montserrat', Roboto, sans-serif;
+    background-color: #f5f7fa;
+    color: #595959;
+    letter-spacing: 0.03em;
+ }
+h1, h2, h3, h4, h5, h6{
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: #000;
+}
+p{
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+ol, ul {
+    padding-left: 20px;
+}
+.main-container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    background: white;
+    margin: 40px auto;
+    box-shadow: 5px 9px 20px 0px rgba(0,0,0,0.15);
+}
+  /* start style sidebar  */
+.sidebar-left {
+    padding-top: 40px;
+    width: 370px;
+    background: #1e2939;
+    color:#fff;
+    
+}
+.sidebar-left .title-block{
+    color: #fff;
+}
+.my-foto {
+    width: 370px;
+    height: auto;
+}
+
+.me-contacts{
+    padding-top: 55px;
+    padding-left: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.6;
+}
+
+.me-contacts a{
+    font-weight: 400;
+    color:#fff;
+    opacity: 0.5;
+    padding-left: 10px;
+
+}
+.me-contacts-phone a{
+text-decoration: none;
+}
+.tech-skills{
+    padding:50px 40px 0 40px
+}
+
+.tech-skills ul,
+.soft-skills ul{
+    padding-left: 20px
+}
+.tech-skills li,
+.soft-skills li{
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 5px;
+    color: #ff6b08;
+}
+.tech-skills li span,
+.soft-skills li span{
+    color: #fff;
+}
+.soft-skills{
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+ /* end sidebar  */
+
+ /* star content right  */
+.content-right {
+    padding: 50px 50px 100px 90px;
+}
+.front-h2{
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.my-name {
+    font-size: 45px;
+    font-weight: 700;
+    color:#000000;
+}
+
+.lorem-text{
+    font-weight: 400;
+    margin-bottom: 25px;
+    max-width: 64%;
+}
+.container-text-1{
+    margin-bottom: 65px;
+}
+.project-box {
+    margin-bottom: 50px;
+}
+.project-box li {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: 700;
+    color: #000000;
+}
+.project-box a {
+    font-weight: 400;
+    color: #595959;
+    text-decoration: none;
+}
+.project-box li span{
+    font-weight: 400;
+    color: #595959;
+}
+.title-block{
+    font-size: 22px;
+    line-height: 1;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 20px;
+    letter-spacing:0;
+}
+span.text-small {
+    color: #a8a8a8;
+    font-size: 12px;
+}
+span.text-small b {
+    color: #000;
+    font-weight: 400;
+}
+.sub-title {
+    margin-bottom: 10px;
+}
+.content-right ul{
+    margin-bottom: 30px;
+}
+.content-right ul li{
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+.education-block {
+    padding-top: 20px;
+}
